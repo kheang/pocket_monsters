@@ -1,0 +1,14 @@
+<h2>Index</h2>
+
+<p><%= link_to 'New Monster', new_monster_path %></p>
+
+<div class="row-header row">
+  <div class="row-item">Name</div>
+  <div class="row-item">CP</div>
+  <div class="row-item">Type</div>
+  <div class="row-item">Weight</div>
+  <div class="row-item">Height</div>
+  <div class="row-item">Last Spotted</div>
+</div>
+
+<%= render @monsters %>
